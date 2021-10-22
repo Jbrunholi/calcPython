@@ -21,7 +21,7 @@ while True:
 
     escolha = input('Digite sua opção (1/2/3/4 ou 5 para SAIR): ')
     if escolha >= '5':
-        print('\n ******* Obrigado e até a próxima ****** \n************ #ForaBolsonaro *************')
+        print('\n ******* Obrigado e até a próxima ******')
         break
 
     # Input dos valores a serem trabalhados
