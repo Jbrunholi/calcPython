@@ -1,5 +1,3 @@
-# lab02 - construindo uma calculadora
-
 # Funções
 def add(x, y):
     return x + y
@@ -24,11 +22,11 @@ while True:
         print('\n ******* Obrigado e até a próxima ******')
         break
 
-    # Input dos valores a serem trabalhados
-    num1 = int(input('Digite o primeiro número: '))
-    num2 = int(input('Digite o segundo número: '))
+# Input dos valores a serem trabalhados
+num1 = int(input('Digite o primeiro número: '))
+num2 = int(input('Digite o segundo número: '))
 
-    # Lógica Operacional
+# Lógica Operacional
     if escolha == '1':  # Soma
         print('\n')
         print(num1, ' + ', num2, ' = ', add(num1, num2))
